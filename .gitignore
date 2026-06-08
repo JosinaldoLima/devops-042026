@@ -1,1 +1,6 @@
 .vagrant/
+<<<<<<< HEAD
+=======
+terraform/aws/.terraform/
+terraform/docker/.terraform/
+>>>>>>> 4515b16 (Curso de devOps - Aula sobre Terraform)

@@ -16,6 +16,7 @@ config.vm.define "controle" do |controle|
   al.install_mode = "apt"
 end
 
+<<<<<<< HEAD
     controle.vm.provision "ansible_local" do |al|
       al.playbook = "installjenkins.yml"
       al.install_mode = "apt"
@@ -24,6 +25,11 @@ end
     controle.vm.provider "virtualbox" do |vb|
       vb.name = "controle"
       vb.memory = "4096"
+=======
+    controle.vm.provider "virtualbox" do |vb|
+      vb.name = "controle"
+      vb.memory = "2048"
+>>>>>>> 4515b16 (Curso de devOps - Aula sobre Terraform)
       vb.cpus = 2
     end
   end
